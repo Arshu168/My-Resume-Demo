@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshad Ahmed - Resume</title>
+
+    <style>
+
+        /* GENERAL */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #e9edf2;
+            font-family: Arial, sans-serif;
+            color: #222;
+        }
+
+
+        /* A4 PAGE */
+
+        .resume {
+            width: 210mm;
+            min-height: 297mm;
+            margin: auto;
+            background-color: white;
+
+            display: grid;
+            grid-template-columns: 65mm 1fr;
+
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+
+        /* LEFT COLUMN */
+
+        .left {
+            background-color: #12355b;
+            color: white;
+            padding: 18mm 8mm;
+        }
+
+
+        /* PROFILE */
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 38mm;
+            height: 38mm;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .profile h1 {
+            font-size: 20px;
+            margin: 10px 0 3px;
+        }
+
+        .profile p {
+            font-size: 11px;
+            margin: 0;
+        }
+
+
+        /* LEFT HEADINGS */
+
+        .left h2 {
+            font-size: 13px;
+            border-bottom: 1px solid white;
+            padding-bottom: 4px;
+            margin-top: 20px;
+        }
+
+
+        /* LEFT LIST */
+
+        .left ul {
+            padding-left: 18px;
+            margin-top: 8px;
+        }
+
+        .left li {
+            font-size: 10.5px;
+            margin-bottom: 5px;
+        }
+
+
+        /* CONTACT */
+
+        .contact p {
+            font-size: 10px;
+            margin: 6px 0;
+            word-break: break-word;
+        }
+
+
+        /* RIGHT COLUMN */
+
+        .right {
+            padding: 15mm 10mm;
+        }
+
+
+        /* RIGHT HEADINGS */
+
+        .right h2 {
+            font-size: 16px;
+            color: #12355b;
+
+            border-bottom: 1.5px solid #12355b;
+
+            padding-bottom: 4px;
+            margin: 0 0 8px;
+        }
+
+
+        /* SECTIONS */
+
+        .section {
+            margin-bottom: 13px;
+        }
+
+
+        /* PROJECT / EDUCATION HEADINGS */
+
+        .right h3 {
+            font-size: 12px;
+            color: #333;
+            margin: 7px 0 2px;
+        }
+
+
+        /* PARAGRAPHS */
+
+        .right p {
+            font-size: 10.5px;
+            line-height: 1.45;
+            margin: 2px 0;
+        }
+
+
+        /* LISTS */
+
+        .right ul {
+            padding-left: 18px;
+            margin-top: 5px;
+        }
+
+        .right li {
+            font-size: 10.5px;
+            margin-bottom: 4px;
+        }
+
+
+        /* LINKS */
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        /* PRINT A4 */
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        @media print {
+
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: white;
+            }
+
+            .resume {
+                width: 210mm;
+                min-height: 297mm;
+                margin: 0;
+                box-shadow: none;
+            }
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="resume">
+
+
+    <!-- LEFT COLUMN -->
+
+    <div class="left">
+
+        <div class="profile">
+
+            <img src="arshad.jpeg" alt="Arshad's profile photo">
+
+            <h1>Arshad Ahmed S</h1>
+
+            <p>B.Tech AI & Data Science</p>
+
+        </div>
+
+
+        <div class="contact">
+
+            <h2>Contact</h2>
+
+            <p>arshuu8888@gmail.com</p>
+
+            <p>7010827460</p>
+
+            <p>GitHub: Arshu168</p>
+
+        </div>
+
+
+        <h2>Technical Skills</h2>
+
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Git & GitHub</li>
+        </ul>
+
+
+        <h2>Areas of Interest</h2>
+
+        <ul>
+            <li>Artificial Intelligence</li>
+            <li>AI Engineering</li>
+            <li>Full-Stack Development</li>
+            <li>Data Science</li>
+            <li>Machine Learning</li>
+        </ul>
+
+
+        <h2>Languages</h2>
+
+        <ul>
+            <li>English</li>
+            <li>Tamil</li>
+        </ul>
+
+    </div>
+
+
+    <!-- RIGHT COLUMN -->
+
+    <div class="right">
+
+
+        <div class="section">
+
+            <h2>About Me</h2>
+
+            <p>
+                B.Tech Artificial Intelligence and Data Science student
+                interested in AI, full-stack development and software
+                development. Passionate about building practical technology
+                solutions through projects and hackathons.
+            </p>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>Education</h2>
+
+            <h3>B.Tech - Artificial Intelligence and Data Science</h3>
+
+            <p>
+                <strong>Rathinam Technical Campus</strong>
+            </p>
+
+            <p>
+                CGPA: 9.44 | Expected Graduation: 2029
+            </p>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>Projects</h2>
+
+
+            <h3>ExploreX - AI-Powered Tourism Platform</h3>
+
+            <p>
+                An AI-powered tourism platform that helps travellers
+                discover destinations based on their preferences.
+                It integrates destinations, hotels, transportation,
+                activities and local experiences.
+            </p>
+
+
+            <h3>VayuSuchak - Real-Time Airfare Price Index</h3>
+
+            <p>
+                A platform for monitoring and analyzing airfare prices
+                in India based on airline, route, travel date,
+                fare and availability.
+            </p>
+
+
+            <h3>Mubeena's Fashion Studio</h3>
+
+            <p>
+                A website developed for a women's tailoring business
+                with service information, pricing, contact details
+                and appointment functionality.
+            </p>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>Certifications</h2>
+
+            <ul>
+
+                <li>AWS - Cloud AI</li>
+
+                <li>IBM - Full Stack Development</li>
+
+                <li>Cisco - Introduction to Modern AI</li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>Hackathons & Innovation</h2>
+
+            <p>
+                Participated in software development and innovation
+                projects involving Artificial Intelligence, tourism
+                technology, data analysis and automation.
+            </p>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>Soft Skills</h2>
+
+            <p>
+                Problem Solving • Team Collaboration • Communication •
+                Presentation • Quick Learning
+            </p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</body>
+</html>
